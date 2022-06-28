@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+  
+    "name": "ML-based malicious URL predictor",
+    "description": "This extension will check the provided URL with the ML-based service",
+    "version": "1.0",
+  
+    "action": {
+     "default_icon": "check.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+     "activeTab"
+     ]
+  }
